@@ -1,0 +1,40 @@
+/* Start Team */
+.team h2 {
+    position: relative;
+    color: #ddd;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.team h2::after {
+    content: 'Creative Team';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.team-item {
+    overflow: hidden;
+    position: relative;
+}
+
+.team-item .team-layer {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 170, 200, 0.9);
+    opacity: 0;
+    transition: opacity 0.25s, top 0.25s;
+}
+
+.team-item:hover .team-layer {
+    opacity: 1;
+    top: 0;
+}
+/* End Team */
