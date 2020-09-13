@@ -73,7 +73,7 @@ body {
   outline: 0 !important;
 }
 .Home{
-    background-image: url(image/header-bg.jpg);
+    background-image: url(aseets/img/header-bg.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
