@@ -38,3 +38,16 @@
     top: 0;
 }
 /* End Team */
+
+input:focus , textarea:focus {
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.6);
+}
+button {
+    font-weight: 700;
+    outline: 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
