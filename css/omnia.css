@@ -1,0 +1,38 @@
+/*start contact*/
+input:focus , textarea:focus {
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.6);
+}
+button {
+    font-weight: 700;
+    outline: 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+/*end contact*/
+
+/* services */
+.oo{
+    position: relative;
+}
+.oo::after{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 2px;
+    top: 100%;
+    left: 48%;
+    transform: translate(-50%);
+    background-color: #e65f78;
+    transition: 0.5s;
+}
+.service-item:hover .oo::after{
+    width: 30%;
+}
+.service-item i {
+    color: #e65f78;
+    font-size: 3rem;
+}
+/* end services */
