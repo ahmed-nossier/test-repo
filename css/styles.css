@@ -72,97 +72,167 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
-.Home{
-    background-image: url(assets/img/header-bg.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
+
+.Home {
+  background-image: url(../assets/img/header-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
-.layer{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0,0.6);
+
+.layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
-.navbar-dark .navbar-nav .active>.nav-link:hover
-{
-    color: seagreen;
+
+.navbar-dark .navbar-nav .active>.nav-link:hover {
+  color: seagreen;
 }
-.setting{
-    position: fixed;
-    left: 0;
-    top: 30%;
-    z-index: 9999999;
-    background-color: black;
+
+.setting {
+  position: fixed;
+  left: 0;
+  top: 30%;
+  z-index: 9999999;
+  background-color: black;
 
 }
-.scroil{
-    position: absolute;
-    bottom: 20px;
-    left:50%;
-    transform:translate(-50%);
+
+.scroil {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
 }
-.scroil .scroil-item{
-    width: 30px;
-    height: 50px;
-    border: 1px solid #fff;
-    position: relative;
-    animation: move 0.5s infinite alternate;
+
+.scroil .scroil-item {
+  width: 30px;
+  height: 50px;
+  border: 1px solid #fff;
+  position: relative;
+  animation: move 0.5s infinite alternate;
 }
+
 @keyframes move {
-    0%{bottom: 20px;}
-    25%{bottom: 35px;}
-    50%{bottom: 40px;}
-    75%{bottom: 45px;}
-    100%{bottom: 50px;}
+  0% {
+    bottom: 20px;
+  }
+
+  25% {
+    bottom: 35px;
+  }
+
+  50% {
+    bottom: 40px;
+  }
+
+  75% {
+    bottom: 45px;
+  }
+
+  100% {
+    bottom: 50px;
+  }
 }
-.scroil-item::after{
-    content: "";
-    position: absolute;
-    top: 50%;
-    height: 10px;
-    width: 2px;
-    right: 43%;
-    color: white; 
-    background-color: whitesmoke; 
+
+.scroil-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 10px;
+  width: 2px;
+  right: 43%;
+  color: white;
+  background-color: whitesmoke;
 }
+
 /* I'M A Photographer.| */
 
-h1::after{
-    content: "";
-    position: absolute;    
-    animation:typing 2s infinite alternate;
-    transform:translate(-50%);
-    left: 50%;
+h1::after {
+  content: "";
+  position: absolute;
+  animation: typing 2s infinite alternate;
+  transform: translate(-50%);
+  left: 50%;
 }
-@keyframes typing
-{
-    0%{content:"I";}
-    5%{content: "I'M";}
-    15%{content: "I'M A";}
-    20%{content: "I'M A P";}
-    35%{content: "I'M A Ph";}
-    40%{content: "I'M A Pho"}
-    45%{content: "I'M A Phot";}
-   50%{content: "I'M A Photo";}
-   55%{content: "I'M A Photog";}
-   60%{content: "I'M A Photogr";}
-   65%{content: "I'M A Photogra";}
-   70%{content: "I'M A Photograp";}
-   75%{content: "I'M A Photograph";}
-   80%{content: "I'M A Photographe";}
-   90%{content:"I'M A Photographer" ;}
-   100%{content: "I'M A Photographer.|";}
-    
+
+@keyframes typing {
+  0% {
+    content: "I";
+  }
+
+  5% {
+    content: "I'M";
+  }
+
+  15% {
+    content: "I'M A";
+  }
+
+  20% {
+    content: "I'M A P";
+  }
+
+  35% {
+    content: "I'M A Ph";
+  }
+
+  40% {
+    content: "I'M A Pho"
+  }
+
+  45% {
+    content: "I'M A Phot";
+  }
+
+  50% {
+    content: "I'M A Photo";
+  }
+
+  55% {
+    content: "I'M A Photog";
+  }
+
+  60% {
+    content: "I'M A Photogr";
+  }
+
+  65% {
+    content: "I'M A Photogra";
+  }
+
+  70% {
+    content: "I'M A Photograp";
+  }
+
+  75% {
+    content: "I'M A Photograph";
+  }
+
+  80% {
+    content: "I'M A Photographe";
+  }
+
+  90% {
+    content: "I'M A Photographer";
+  }
+
+  100% {
+    content: "I'M A Photographer.|";
+  }
+
 }
+
 .layer-work {
-    background-color: rgba(0, 0, 0,0.6);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity .5s;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
 }
 
 hr {
