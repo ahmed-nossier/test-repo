@@ -12,7 +12,7 @@
   }
   
   .navbar-dark .navbar-nav .active>.nav-link:hover {
-    color: seagreen;
+    color: #e65f78;
   }
   
   .setting {
@@ -159,9 +159,12 @@
     opacity: 0;
     transition: opacity .5s;
   }
-  .carousel-indicators li {
+  .carousel-indicators li  {
     background-color: #e65f78 !important;
 }
 .client , .Services{
     background-color: #f8f9fa;
 }  
+.cli {
+  color: #e65f78 !important;
+}
