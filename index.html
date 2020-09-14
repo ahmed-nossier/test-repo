@@ -10,6 +10,8 @@
     <meta name="author" content="" />
     <title>Grayscale Bootstrap</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
@@ -126,14 +128,14 @@
             </p>
             <ul>
               <li>
-                <i class="bx bx-store-alt"></i>
+                <i class="fas fa-store"></i>
                 <div>
                   <h5>Ullamco laboris nisi ut aliquip consequat</h5>
                   <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
                 </div>
               </li>
               <li>
-                <i class="bx bx-images"></i>
+                <i class="fas fa-images"></i>
                 <div>
                   <h5>Magnam soluta odio exercitationem reprehenderi</h5>
                   <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
@@ -157,7 +159,7 @@
     
     <!-- Start Team -->
     <section class="team py-5" id="team">
-      <div class="py-5">
+      <div class="py-5" data-aos="zoom-in-right">
         <div class="text-center">
           <h2>C</h2>
           <p class="lead">We are digital thinkers</p>
@@ -260,7 +262,7 @@
     <!-- sec Client -->
  
    <section class="client py-5" id="client">
-    <div class="container">
+    <div class="container" data-aos="zoom-in-left">
       <div class="client-caption text-center my-5 ">
         <h2  class="font-weight-bolder">Our Client</h2>
         <p class="text-muted">It is a long established fact that a reader will be of a page<br> when established fact looking at its layout.</p>
@@ -307,7 +309,7 @@
 
  <!--  start our services section  -->
  <section id="services" class="services py-5">
-  <div class="container">
+  <div class="container" data-aos="zoom-out-right">
     <div class="services-caption text-center">
       <h2  class="font-weight-bolder">Our Services</h2>
       <p class="text-muted">It is a long established fact that a reader will be of 
@@ -369,7 +371,7 @@
 
     <!-- Signup-->
     <section class="signup-section" id="signup">
-      <div class="container">
+      <div class="container" data-aos="zoom-out-left">
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
@@ -455,5 +457,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script>AOS.init();</script>
   </body>
 </html>
