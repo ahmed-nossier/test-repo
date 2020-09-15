@@ -1,3 +1,4 @@
+
 .Home {
     background-image: url(../assets/img/header-bg.jpg);
     height: 100vh;
@@ -159,6 +160,31 @@
     opacity: 0;
     transition: opacity .5s;
   }
+  #sideBar{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999999;
+}
+.color-box{
+    background-color: #f1f1f1;
+    padding: 12px;
+    float: left;
+}
+#sideBar i {
+    float: left;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.color-item{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    cursor: pointer;
+}
+
   .carousel-indicators li  {
     background-color: #e65f78 !important;
 }
