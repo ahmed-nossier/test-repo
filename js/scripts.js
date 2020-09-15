@@ -50,8 +50,8 @@
 var playSound = new Audio();
 
 var playSoundcam = new Audio();
-playSound.src = "./assets/audio/click.mp3";
-playSoundcam.src = "./assets/audio/cam.mp3";
+playSound.src = "click.mp3";
+playSoundcam.src = "cam.mp3";
 $(".bateekh").click(function () {
   playSound.play();
 });
